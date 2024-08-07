@@ -19,7 +19,9 @@ The u-boot © OPHUB is licensed under [GPL-2.0](LICENSE)
 
 ========
 
+<br>
 
+```sh
 apt-get update
 
 apt-get upgrade
@@ -128,4 +130,7 @@ CEK HASIL :
 
 cat autorun.log
 
+
+```
+<br>
 
