@@ -64,3 +64,37 @@ crontab -r
 ```
 <br>
 
+config : .
+
+
+<br>
+
+```sh
+
+{
+        "pools":[
+        {
+                "name": "luckpool",
+        "url": "stratum+tcp://na.luckpool.net:3>
+                "timeout": 150,
+                "disabled": 0
+        },
+        {
+                "name": "verus.farm (Quipacorn)>
+        "url": "stratum+tcp://verus.farm:9999",
+                "timeout": 60,
+                "time-limit": 600,
+                "disabled": 0
+        }],
+
+        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY>
+        "algo": "verus",
+        "threads": 8,
+        "cpu-priority": 1,
+        "retry-pause": 5,
+        "api-allow": "192.168.0.0/16",
+        "api-bind": "0.0.0.0:4068"
+}
+
+```
+<br>
