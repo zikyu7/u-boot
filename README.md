@@ -75,19 +75,19 @@ config : .
         "pools":[
         {
                 "name": "luckpool",
-        "url": "stratum+tcp://na.luckpool.net:3>
+        "url": "stratum+tcp://na.luckpool.net:3956",
                 "timeout": 150,
                 "disabled": 0
         },
         {
-                "name": "verus.farm (Quipacorn)>
+                "name": "verus.farm (Quipacorn)",
         "url": "stratum+tcp://verus.farm:9999",
                 "timeout": 60,
                 "time-limit": 600,
                 "disabled": 0
         }],
 
-        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY>
+        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.Hot11s",
         "algo": "verus",
         "threads": 8,
         "cpu-priority": 1,
@@ -95,6 +95,5 @@ config : .
         "api-allow": "192.168.0.0/16",
         "api-bind": "0.0.0.0:4068"
 }
-
 ```
 <br>
