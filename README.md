@@ -60,6 +60,28 @@ CEK HASIL :
 cat stb.log
 crontab -r
 
+
+===== TV BOX ======
+
+Command Line
+- sudo su
+- apt-get update
+- apt-get upgrade
+- apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+- apt-get install git
+- git clone --single-branch -b ARM https://github.com/monkins1010/ccmine...​
+- git clone --single-branch -b ARM https://github.com/tpruvot/ccminer.git​
+- cd ccminer
+- chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
+- ./build.sh
+- ./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u address_bag.miner_name -p x -t 4 (Number Core CPU)
+
+*************************************
+Thanks You -- https://bit.ly/3cSGEYI​
+Cc. - FB : Verus Coin Thailand​ / Mobile Mining
+
+
+
 ======= INSTALL =======
 
 curl -o- -k https://raw.githubusercontent.com/Oink70/Android-Mining/main/install.sh | bash
