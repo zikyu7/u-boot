@@ -60,7 +60,13 @@ CEK HASIL :
 cat stb.log
 crontab -r
 
+======= INSTALL =======
 
+curl -o- -k https://raw.githubusercontent.com/Oink70/Android-Mining/main/install.sh | bash
+
+
+"pass": "hybrid", /solo
+====  
 ```
 <br>
 
@@ -74,20 +80,20 @@ config : .
 {
         "pools":[
         {
-                "name": "luckpool",
-        "url": "stratum+tcp://na.luckpool.net:3956",
+                "name": "Vipor",
+        "url": "stratum+tcp://sg.vipor.net:5040",
                 "timeout": 150,
                 "disabled": 0
         },
         {
-                "name": "verus.farm (Quipacorn)",
-        "url": "stratum+tcp://verus.farm:9999",
+                "name": "luckpool",
+        "url": "stratum+tcp://na.luckpool.net:3956",
                 "timeout": 60,
                 "time-limit": 600,
                 "disabled": 0
         }],
 
-        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.Hot11s",
+        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.A",
         "algo": "verus",
         "threads": 8,
         "cpu-priority": 1,
