@@ -106,12 +106,15 @@ apt install openssl
 
 
 
+
 ======= INSTALL =======
 
 curl -o- -k https://raw.githubusercontent.com/Oink70/Android-Mining/main/install.sh | bash
 
+( RUN AUTO :  ~/ccminer/ccminer -c ~/ccminer/config.json
 
 "pass": "hybrid", /solo
+
 ====  
 ```
 <br>
