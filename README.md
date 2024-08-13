@@ -102,7 +102,7 @@ CD CCMINER/&&./start.sh
 
 [ close cc miner with Ctrl + C ]
 (bug ; termux-change-repo ) Main , Bfsu
-
+apt install openssl
 
 
 
