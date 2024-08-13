@@ -80,6 +80,27 @@ Command Line
 Thanks You -- https://bit.ly/3cSGEYI​
 Cc. - FB : Verus Coin Thailand​ / Mobile Mining
 
+≈======== TermuxXXXXXXXXXXXXXX ==========
+yes | pkg update && pkg upgrade
+yes | pkg install libjansson wget nano &&
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json
+wget https://raw.githubusercontent.co./Darktron/pre-compiled/generiv/start.sh
+chmod +x ccminer start.sh
+
+( Autorun )
+
+nano ../usr/etc/bash.bashrc
+
+( baris 1 : )
+CD CCMINER/&&./start.sh
+
+"RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG
+
+[ close cc miner with Ctrl + C ]
+
+
 
 
 ======= INSTALL =======
