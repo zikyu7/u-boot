@@ -96,7 +96,7 @@ chmod +x ccminer start.sh
 nano ../usr/etc/bash.bashrc
 
 ( baris 1 : )
-CD CCMINER/&&./start.sh
+cd ccminer/&&./start.sh
 
 "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG
 
