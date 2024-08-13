@@ -88,7 +88,7 @@ mkdir ccminer && cd ccminer
 pkg install wget
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json
-wget https://raw.githubusercontent.co./Darktron/pre-compiled/generiv/start.sh
+wget https://raw.githubusercontent.co./Darktron/pre-compiled/generic/start.sh
 chmod +x ccminer start.sh
 
 ( Autorun )
