@@ -81,9 +81,11 @@ Thanks You -- https://bit.ly/3cSGEYI​
 Cc. - FB : Verus Coin Thailand​ / Mobile Mining
 
 ≈======== TermuxXXXXXXXXXXXXXX ==========
+
 yes | pkg update && pkg upgrade
 yes | pkg install libjansson wget nano &&
 mkdir ccminer && cd ccminer
+pkg install wget
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json
 wget https://raw.githubusercontent.co./Darktron/pre-compiled/generiv/start.sh
