@@ -101,6 +101,7 @@ CD CCMINER/&&./start.sh
 "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG
 
 [ close cc miner with Ctrl + C ]
+(bug ; termux-change-repo ) Main , Bfsu
 
 
 
