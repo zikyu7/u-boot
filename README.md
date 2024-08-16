@@ -69,7 +69,7 @@ Command Line
 - apt-get upgrade
 - apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
 - apt-get install git
-- git clone --single-branch -b ARM https://github.com/monkins1010/ccmine...​
+- git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
 - git clone --single-branch -b ARM https://github.com/tpruvot/ccminer.git​
 - cd ccminer
 - chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
